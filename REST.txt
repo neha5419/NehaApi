@@ -1,0 +1,41 @@
+REST API -JSON GOING TO USE CLIENT SIDE RENDERING.....
+
+
+GET /users-send all employee name as html..
+GET /api/users:-All user details..json data
+GET /api/users/1 - specific ID ka data return
+
+
+POST
+/api/users- Create a new user
+
+PATCH 
+/api/users/id-Edit the user detail with that ID
+
+
+DELETE
+/api/users/id-Corresponding id ka user -delete
+
+For creating your own custom error....
+// res.setHeader("X-myname","neha");
+  // res.setHeader("X-age",18);
+  // console.log(res.getHeader("myname"));
+  // console.log(req.headers);
+
+
+  //to get entire data
+
+// app.get("/api/users", (req, res) => {
+
+//   res.setHeader("myname","neha");
+//   res.setHeader("myage",18);
+//   console.log(res.getHeader("myage"));
+//   console.log(res.getHeader("myname"));
+//   console.log(req.headers);
+//   console.log(req.headers);
+
+//   return res.status(201).json(MOCK_DATA);
+
+// });
+
+//to get only name
